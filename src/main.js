@@ -4,6 +4,7 @@ import {
   Route,
   Link
 } from 'react-router-dom'
+import { Switch } from 'react-router
 
 const Sandwiches = () => <h3>Sandwiches</h3>;
 
@@ -62,6 +63,7 @@ const routes =[
 
 
 const Main = () =>(
+  <Switch>
   <Router>
   <div>
     <ul>
@@ -73,6 +75,7 @@ const Main = () =>(
     ))}
   </div>
   </Router>
+</Switch>
 )
 
 export default Main;
