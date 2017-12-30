@@ -4,7 +4,7 @@ import {
   Route,
   Link
 } from 'react-router-dom'
-import { Switch } from 'react-router
+import { Switch } from 'react-router'
 
 const Sandwiches = () => <h3>Sandwiches</h3>;
 
